@@ -498,9 +498,8 @@ echo '{
   "disable_udp": false,
   "obfs": "arman",
   "auth": {
-    "mode": "external",
-    "config": {
-    "cmd": "./.auth.sh"
+    "mode": "passwords",
+    "config": ["arman123", "firenetdev"]
     }
   },
   "prometheus_listen": ":5665",
